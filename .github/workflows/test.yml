@@ -6,6 +6,10 @@ on:
   workflow_run:
     workflows: ["Build"]
     types: [completed]
+  
+ # Add a cron schedule (example: every day at 14:30 UTC)
+  schedule:
+    - cron: "30 14 * * *"
 
   workflow_dispatch:
 
