@@ -9,6 +9,10 @@ on:
   pull_request_review:
     types: [submitted, edited, dismissed]
 
+  
+# Trigger when the repository is forked
+  fork:
+
   issues:
     types:
       - opened
