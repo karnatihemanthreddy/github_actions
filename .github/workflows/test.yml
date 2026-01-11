@@ -2,7 +2,7 @@
 name: Python CI
 
 on:
-  # Add a cron schedule (example: every day at 14:30 UTC)
+  # Add a cron schedule
   schedule:
     - cron: "50 14 * * *"
   workflow_run:
