@@ -5,6 +5,9 @@ on:
   # Add a cron schedule
   schedule:
     - cron: "2 15 * * *"
+  issues:
+    types:
+      - opened
   #workflow_run:
    # workflows: ["Build"]
     #types: [completed]
