@@ -5,6 +5,10 @@ on:
   # Add a cron schedule
   schedule:
     - cron: "2 15 * * *"
+  
+  pull_request_review:
+    types: [submitted, edited, dismissed]
+
   issues:
     types:
       - opened
