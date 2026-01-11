@@ -1,1 +1,1 @@
-print("demo for simple python app build with workflow")
+print("demo for simple python")
