@@ -4,7 +4,7 @@ name: Python CI
 on:
   # Add a cron schedule
   schedule:
-    - cron: "2 15 * * *"
+    - cron: "11 5 * * *"
   
   pull_request_review:
     types: [submitted, edited, dismissed]
